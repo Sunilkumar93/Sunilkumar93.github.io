@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.73490330.css",
-    "main.js": "/static/js/main.c03b7a2b.js",
+    "main.js": "/static/js/main.e5830e82.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.png": "/static/media/photo.08ec165bc4974da09a0c.png",
     "static/media/Sunil_Kumar_Resume.pdf": "/static/media/Sunil_Kumar_Resume.7b1f2526e746d57164d7.pdf",
     "index.html": "/index.html",
     "main.73490330.css.map": "/static/css/main.73490330.css.map",
-    "main.c03b7a2b.js.map": "/static/js/main.c03b7a2b.js.map",
+    "main.e5830e82.js.map": "/static/js/main.e5830e82.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73490330.css",
-    "static/js/main.c03b7a2b.js"
+    "static/js/main.e5830e82.js"
   ]
 }
