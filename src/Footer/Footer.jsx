@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Container textAlign="center">
+    <Container textAlign="center" className="Footer">
       <Text fontSize="1.2rem" fontWeight="semibold">
         Made with ❤️ by Sunil Kumar
       </Text>

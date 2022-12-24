@@ -74,6 +74,7 @@ const Home = () => {
         position="absolute"
         right="-1.7rem"
         bottom="7rem"
+        href="#Footer"
         transform="rotate(90deg)"
         fontWeight="200"
         fontSize="0.9rem"
