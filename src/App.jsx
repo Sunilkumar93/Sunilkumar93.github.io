@@ -8,6 +8,7 @@ import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Project from "./Components/Project/Project";
 import Skills from "./Components/Skills/Skills";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Project />
       <Git />
       <Contact />
+      <Footer />
     </div>
   );
 }
