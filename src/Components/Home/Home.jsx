@@ -44,13 +44,21 @@ const Home = () => {
         bottom="5rem"
         _after={{ content: '""', width: "1px", height: "2rem", bg: "primary" }}
       >
-        <Link href="Linkedin.com" isExternal>
+        <Link
+          w="max-content"
+          href="https://www.linkedin.com/in/sunil-kumar-89212b247"
+          isExternal
+        >
           <BsLinkedin />
         </Link>
-        <Link href="github.com" isExternal>
+        <Link w="max-content" href="https://github.com/sunilkumar93" isExternal>
           <BsGithub />
         </Link>
-        <Link href="insta" isExternal>
+        <Link
+          w="max-content"
+          href="https://www.instagram.com/sunilsihag93"
+          isExternal
+        >
           <BsInstagram />
         </Link>
       </VStack>
@@ -63,11 +71,9 @@ const Home = () => {
         left="calc(50% - 11rem)"
         borderRadius="12rem 12rem 0 0"
         padding="1rem"
-        
         overflow="hidden"
       >
-        <Image w="100%" src={me} 
-        objectFit="cover" alt="me" />
+        <Image w="100%" h="110%" src={me} objectFit="cover" alt="me" />
       </Box>
       <Link
         display={{ base: "none", md: "block", lg: "block" }}

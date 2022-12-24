@@ -54,7 +54,7 @@ const SwiperComponent = ({ data = [] }) => {
                     {item.title}
                   </Text>
                 </Box>
-                <Box w="100%" h={{ base: "35%", md: "60%", lg: "55%" }}>
+                <Box w="100%" h={{ base: "35%", md: "60%", lg: "59%" }}>
                   <Image
                     w="100%"
                     h="100%"

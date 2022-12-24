@@ -38,14 +38,14 @@ const Git = () => {
         </Box>
         <Grid templateColumns={{ base: "1fr", md: "repeat(2,1fr)" }} gap={5}>
           <Box>
-            <Image src="https://streak-stats.demolab.com/?user=Sunilkumar93&theme=tokyonight&border_radius=15&date_format=M%20j%5B%2C%20Y%5D&color=#4db5ff" />
+            <Image src="https://streak-stats.demolab.com/?user=Sunilkumar93&theme=tokyonight&border_radius=15&date_format=M%20j%5B%2C%20Y%5D&color=#4db5ff"alt="stats" />
           </Box>
 
           <Box>
-            <Image src="https://github-readme-stats.vercel.app/api?username=Sunilkumar93&count_private=true&theme=tokyonight&border_radius=15&color=#fff" />
+            <Image src="https://github-readme-stats.vercel.app/api?username=Sunilkumar93&count_private=true&theme=tokyonight&border_radius=15&color=#fff" alt="stats" />
           </Box>
           <Box>
-            <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunilkumar93&layout=compact&theme=tokyonight&border_radius=15&color=fb982f" />
+            <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunilkumar93&layout=compact&theme=tokyonight&border_radius=15&color=fb982f" alt="stats" />
           </Box>
         </Grid>
       </VStack>
