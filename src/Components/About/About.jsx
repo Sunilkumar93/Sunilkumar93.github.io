@@ -61,7 +61,7 @@ const About = () => {
         flexWrap={{ base: "wrap-reverse", md: "nowrap" }}
         justifyContent="space-between"
       >
-        <Box alignSelf="start">
+        <Box alignSelf="start" borderRadius={15} overflow="hidden">
           <Image w="332px" height="250px" src={gif} alt="" />
         </Box>
         <Box>
@@ -112,7 +112,13 @@ const About = () => {
           </Link>
         </Box>
       </Flex>
-      <Flex mt="20px" gap={5} mx="auto" w={{base:"100%",md:"70%",lg:"50%"}} justifyContent="space-around">
+      <Flex
+        mt="20px"
+        gap={5}
+        mx="auto"
+        w={{ base: "100%", md: "70%", lg: "50%" }}
+        justifyContent="space-around"
+      >
         <Link href="#contact">
           <Button variant="primary">Let's Talk</Button>
         </Link>

@@ -1,6 +1,7 @@
-import { Container, Heading, Link, Spacer } from "@chakra-ui/react";
+import { Container, Heading, Hide, Link, Show, Spacer } from "@chakra-ui/react";
 import {
   FaFileAlt,
+  FaGithub,
   FaGraduationCap,
   FaHome,
   FaMedal,
@@ -26,9 +27,17 @@ const Navbar = () => {
         gap="2rem"
         zIndex={5}
       >
-        <Heading as="h5" size="md" color="primary">
-          Sunil Kumar
-        </Heading>
+        <Hide above="lg">
+          <Heading as="h5" size="md" color="primary">
+            Sunil
+          </Heading>
+        </Hide>
+        <Show above="lg">
+          <Heading as="h5" size="md" color="primary">
+            Sunil Kumar
+          </Heading>
+        </Show>
+
         <Spacer />
         <Link
           borderRadius="50%"
@@ -66,17 +75,7 @@ const Navbar = () => {
         >
           Education
         </Link>
-        <Link
-          borderRadius="50%"
-          color="colorLight"
-          fontSize="1.1rem"
-          _hover={{
-            color: "white",
-          }}
-          href="#Project"
-        >
-          Project
-        </Link>
+
         <Link
           borderRadius="50%"
           color="colorLight"
@@ -95,6 +94,28 @@ const Navbar = () => {
           _hover={{
             color: "white",
           }}
+          href="#Project"
+        >
+          Project
+        </Link>
+        <Link
+          borderRadius="50%"
+          color="colorLight"
+          fontSize="1.1rem"
+          _hover={{
+            color: "white",
+          }}
+          href="#Git"
+        >
+          Git
+        </Link>
+        <Link
+          borderRadius="50%"
+          color="colorLight"
+          fontSize="1.1rem"
+          _hover={{
+            color: "white",
+          }}
           href="#Contact"
         >
           Contact
@@ -103,15 +124,15 @@ const Navbar = () => {
       <Container
         maxW="max-content"
         background={"rgba(0,0,0,0.7)"}
-        padding="1.1rem 1.5rem"
+        padding="1.1rem 1.3rem"
         display={{ base: "flex", md: "none" }}
         position="fixed"
         transition="ease-in-out"
-        left="calc(50% - 9.8rem)"
+        left="calc(50% - 9.7rem)"
         alignItems="center"
         top="2rem"
         borderRadius="3rem"
-        gap="2rem"
+        gap="1.5rem"
         zIndex={5}
       >
         <Link
@@ -150,6 +171,18 @@ const Navbar = () => {
         >
           <FaGraduationCap />
         </Link>
+
+        <Link
+          borderRadius="50%"
+          color="colorLight"
+          fontSize="1.1rem"
+          _hover={{
+            color: "white",
+          }}
+          href="#Skill"
+        >
+          <FaMedal />
+        </Link>
         <Link
           borderRadius="50%"
           color="colorLight"
@@ -168,10 +201,11 @@ const Navbar = () => {
           _hover={{
             color: "white",
           }}
-          href="#Skill"
+          href="#Git"
         >
-          <FaMedal />
+          <FaGithub />
         </Link>
+
         <Link
           borderRadius="50%"
           color="colorLight"
