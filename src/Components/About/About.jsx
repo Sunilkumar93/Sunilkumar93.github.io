@@ -22,6 +22,8 @@ import {
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
+import Resume from "../../assets/Sunil_Kumar_Resume.pdf";
+
 const About = () => {
   return (
     <Container
@@ -83,15 +85,12 @@ const About = () => {
             <FaLocationArrow />
             <Text color="white">Churu Rajasthan</Text>
           </Flex>
-          <Flex
-            gap="2"
-            alignItems="center"
-            color="primary"
-            _hover={{ cursor: "pointer", color: "white" }}
-          >
-            <FaPhone />
-            <Text color="white">+91 8696343902</Text>
-          </Flex>
+          <Link href="tel:8696343902">
+            <Flex gap="2" alignItems="center">
+              <FaPhone />
+              <Text color="white">+91 8696343902</Text>
+            </Flex>
+          </Link>
           <Link href="https://github.com/Sunilkumar93" isExternal>
             <Flex gap="2" alignItems="center">
               <FaGithub />
@@ -119,10 +118,10 @@ const About = () => {
         w={{ base: "100%", md: "70%", lg: "50%" }}
         justifyContent="space-around"
       >
-        <Link href="#contact">
+        <Link href="#Contact">
           <Button variant="primary">Let's Talk</Button>
         </Link>
-        <Link href="#contact">
+        <Link href={Resume} download>
           <Button>Resume</Button>
         </Link>
       </Flex>

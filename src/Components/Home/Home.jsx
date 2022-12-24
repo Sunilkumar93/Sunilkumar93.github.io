@@ -31,7 +31,7 @@ const Home = () => {
         <Link href={Resume} download>
           <Button>Resume</Button>
         </Link>
-        <Link href="#contact">
+        <Link href="#Contact">
           <Button variant="primary">Let's Talk</Button>
         </Link>
       </Flex>

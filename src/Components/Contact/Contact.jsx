@@ -88,7 +88,10 @@ const Contact = () => {
             </Link>
           </Box>
           <Box>
-            <Link href="https://www.linkedin.com/in/sunil-kumar-89212b247" isExternal>
+            <Link
+              href="https://www.linkedin.com/in/sunil-kumar-89212b247"
+              isExternal
+            >
               <FaLinkedin fontSize="3rem" />
             </Link>
           </Box>
@@ -98,7 +101,7 @@ const Contact = () => {
             </Link>
           </Box>
           <Box>
-            <Link href="tel:8696343902" isExternal>
+            <Link href="tel:8696343902">
               <FaPhone fontSize="3rem" />
             </Link>
           </Box>
@@ -109,7 +112,7 @@ const Contact = () => {
           </Box>
         </Flex>
         <Box
-          w={{ base: "100%", md: "60%" }}
+          w={{ base: "100%", md: "80%", lg: "70%" }}
           border="2px solid white"
           borderRadius={15}
           py={5}
