@@ -29,7 +29,7 @@ const Git = () => {
       overflow="hidden"
     >
       <VStack gap={5} w="100%">
-        <Box border="1px solid #4db5ff" w="100%" p="20px" textAlign="start" borderRadius={15}>
+        <Box border="1px solid #4db5ff" w="max-content" p="20px" textAlign="start" borderRadius={15}>
           <GitHubCalendar
             username="Sunilkumar93"
             transformData={selectLastHalfYear}
