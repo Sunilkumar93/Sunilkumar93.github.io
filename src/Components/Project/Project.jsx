@@ -32,7 +32,7 @@ const Project = () => {
           </TabList>
           <TabPanels>
             <TabPanel>
-              <Box w="100%" h={{ base: "500px", md: "600px", lg: "550px" }}>
+              <Box w="100%" h={{ base: "500px", md: "600px", lg: "540px" }}>
                 <Swiper data={allProjects} />
               </Box>
             </TabPanel>

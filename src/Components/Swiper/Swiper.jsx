@@ -1,4 +1,5 @@
 import React from "react";
+import { Box, Button, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
@@ -8,7 +9,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "./Swiper.css";
-import { Box, Button, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
 
 const SwiperComponent = ({ data = [] }) => {
   return (
@@ -41,7 +41,6 @@ const SwiperComponent = ({ data = [] }) => {
                 alignItems="start"
                 alignSelf="start"
                 w="100%"
-                
                 h="100%"
                 position="relative"
               >
@@ -55,7 +54,7 @@ const SwiperComponent = ({ data = [] }) => {
                     {item.title}
                   </Text>
                 </Box>
-                <Box w="100%" h={{ base: "35%", md: "60%", lg: "57%" }}>
+                <Box w="100%" mt="0rem !important" h={{ base: "35%", md: "60%", lg: "57%" }}>
                   <Image
                     w="100%"
                     h="100%"
@@ -64,10 +63,10 @@ const SwiperComponent = ({ data = [] }) => {
                     alt="image"
                   />
                 </Box>
-                <Box px={2} textAlign="start">
+                <Box px={2} mt="0rem !important" textAlign="start">
                   <Text>{item.about}</Text>
                 </Box>
-                <Box px={2} w="100%" textAlign="start">
+                <Box px={2} mt="0rem !important" w="100%" textAlign="start">
                   <Box textAlign="start">
                     <Text color="primary">
                       Tech Stack:{" "}
@@ -79,9 +78,10 @@ const SwiperComponent = ({ data = [] }) => {
                 </Box>
                 <Flex
                   w="100%"
+                  mt="0rem !important"
                   position="absolute"
                   justifyContent="space-evenly"
-                  bottom="0"
+                  bottom="2"
                 >
                   <Box>
                     <Link href={item.github} isExternal>
