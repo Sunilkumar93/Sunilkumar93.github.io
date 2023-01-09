@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be7a14ae.css",
-    "main.js": "/static/js/main.37d64aa4.js",
+    "main.js": "/static/js/main.308cd09e.js",
     "static/media/eduGif.gif": "/static/media/eduGif.f4797b0907b37cbd20a4.gif",
     "static/media/gif.gif": "/static/media/gif.18bcba89d4290c3f7580.gif",
     "static/media/2.png": "/static/media/2.274e8c349bb5c3166fab.png",
@@ -11,10 +11,10 @@
     "static/media/Sunil_Kumar_Resume.pdf": "/static/media/Sunil_Kumar_Resume.7b1f2526e746d57164d7.pdf",
     "index.html": "/index.html",
     "main.be7a14ae.css.map": "/static/css/main.be7a14ae.css.map",
-    "main.37d64aa4.js.map": "/static/js/main.37d64aa4.js.map"
+    "main.308cd09e.js.map": "/static/js/main.308cd09e.js.map"
   },
   "entrypoints": [
     "static/css/main.be7a14ae.css",
-    "static/js/main.37d64aa4.js"
+    "static/js/main.308cd09e.js"
   ]
 }
