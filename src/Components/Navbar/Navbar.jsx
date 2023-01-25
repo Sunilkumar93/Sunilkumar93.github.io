@@ -11,12 +11,14 @@ import {
 
 import React from "react";
 
+import Resume from "../../assets/Sunil_Kumar_Resume.pdf";
+
 const Navbar = () => {
   return (
     <>
       <Container
         background={"rgba(0,0,0,0.7)"}
-        padding="0.5rem 2rem"
+        padding={{base:"0.5rem 1rem",lg:"0.5rem 2rem"}}
         display={{ base: "none", md: "flex" }}
         position="fixed"
         transition="translate(-50%)"
@@ -119,6 +121,18 @@ const Navbar = () => {
           href="#Contact"
         >
           Contact
+        </Link>
+        <Link
+          borderRadius="50%"
+          color="colorLight"
+          fontSize="1.1rem"
+          _hover={{
+            color: "white",
+          }}
+          href={Resume}
+          isExternal
+        >
+          Resume
         </Link>
       </Container>
       <Container

@@ -121,7 +121,7 @@ const About = () => {
         <Link href="#Contact">
           <Button variant="primary">Let's Talk</Button>
         </Link>
-        <Link href={Resume} download>
+        <Link href={Resume} isExternal>
           <Button>Resume</Button>
         </Link>
       </Flex>

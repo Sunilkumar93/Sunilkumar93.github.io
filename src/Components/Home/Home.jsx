@@ -28,7 +28,7 @@ const Home = () => {
       <Heading variant="h1">Sunil Kumar</Heading>
       <Heading color="colorLight">FullStack Developer</Heading>
       <Flex mt="2.5rem" gap="1.2rem" justifyContent="center">
-        <Link href={Resume} download>
+        <Link href={Resume} isExternal>
           <Button>Resume</Button>
         </Link>
         <Link href="#Contact">

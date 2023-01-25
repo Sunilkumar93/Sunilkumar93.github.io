@@ -3,12 +3,13 @@ import React from "react";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
+import Footer from "./Components/Footer/Footer";
 import Git from "./Components/Git/Git";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Project from "./Components/Project/Project";
 import Skills from "./Components/Skills/Skills";
-import Footer from "./Footer/Footer";
+
 
 function App() {
   return (
