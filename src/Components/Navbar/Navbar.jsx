@@ -11,14 +11,15 @@ import {
 
 import React from "react";
 
-import Resume from "../../assets/Sunil_Kumar_Resume.pdf";
+import Resume from "../../assets/fw20_0828-Sunil-Kumar-Resume.pdf";
+import { openInNewTab } from "../../utils/openInNewTab";
 
 const Navbar = () => {
   return (
     <>
       <Container
         background={"rgba(0,0,0,0.7)"}
-        padding={{base:"0.5rem 1rem",lg:"0.5rem 2rem"}}
+        padding={{ base: "0.5rem 1rem", lg: "0.5rem 2rem" }}
         display={{ base: "none", md: "flex" }}
         position="fixed"
         transition="translate(-50%)"
@@ -130,7 +131,8 @@ const Navbar = () => {
             color: "white",
           }}
           href={Resume}
-          isExternal
+          onClick={() => openInNewTab()}
+          download="fw20_0828-Sunil-Kumar-Resume"
         >
           Resume
         </Link>

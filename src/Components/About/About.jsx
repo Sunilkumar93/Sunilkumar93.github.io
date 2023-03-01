@@ -22,7 +22,8 @@ import {
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
-import Resume from "../../assets/Sunil_Kumar_Resume.pdf";
+import Resume from "../../assets/fw20_0828-Sunil-Kumar-Resume.pdf";
+import { openInNewTab } from "../../utils/openInNewTab";
 
 const About = () => {
   return (
@@ -121,7 +122,11 @@ const About = () => {
         <Link href="#Contact">
           <Button variant="primary">Let's Talk</Button>
         </Link>
-        <Link href={Resume} isExternal>
+        <Link
+          href={Resume}
+          download="fw20_0828-Sunil-Kumar-Resume"
+          onClick={() => openInNewTab()}
+        >
           <Button>Resume</Button>
         </Link>
       </Flex>

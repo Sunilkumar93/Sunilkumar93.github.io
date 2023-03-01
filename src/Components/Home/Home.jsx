@@ -11,8 +11,9 @@ import {
 import React from "react";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-import Resume from "../../assets/Sunil_Kumar_Resume.pdf";
+import Resume from "../../assets/fw20_0828-Sunil-Kumar-Resume.pdf";
 import me from "../../assets/photo.png";
+import { openInNewTab } from "../../utils/openInNewTab";
 const Home = () => {
   return (
     <Container
@@ -28,7 +29,11 @@ const Home = () => {
       <Heading variant="h1">Sunil Kumar</Heading>
       <Heading color="colorLight">FullStack Developer</Heading>
       <Flex mt="2.5rem" gap="1.2rem" justifyContent="center">
-        <Link href={Resume} isExternal>
+        <Link
+          href={Resume}
+          download="fw20_0828-Sunil-Kumar-Resume"
+          onClick={() => openInNewTab()}
+        >
           <Button>Resume</Button>
         </Link>
         <Link href="#Contact">
