@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Grid, Image, VStack } from "@chakra-ui/react";
+import { Box, Container, Grid, Heading, Image, VStack } from "@chakra-ui/react";
 import GitHubCalendar from "react-github-calendar";
 
 const Git = () => {
@@ -27,16 +27,19 @@ const Git = () => {
       mt="4rem"
       position="relative"
       overflow="hidden"
+      pt="5rem"
     >
-      <VStack gap={5} w="100%">
+       <Heading>About My</Heading>
+      <Heading variant="h1">GitHub Stats</Heading>
+      <VStack gap={5} w="100%" mt="2rem">
         <Box
           border="1px solid #4db5ff"
-          w="max-content"
+          w="100%"
           p="20px"
           textAlign="start"
           borderRadius={15}
         >
-          <GitHubCalendar username="Sunilkumar93" color="#4db5ff" />
+          <GitHubCalendar username="Sunilkumar93" color="#4db5ff"/>
         </Box>
         <Grid templateColumns={{ base: "1fr", md: "repeat(2,1fr)" }} gap={5}>
           <Box>

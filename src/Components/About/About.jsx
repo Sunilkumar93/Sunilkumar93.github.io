@@ -35,6 +35,7 @@ const About = () => {
       mt="4rem"
       position="relative"
       overflow="hidden"
+      pt="5rem"
     >
       <Heading>Get To Know</Heading>
       <Heading variant="h1">About Me</Heading>

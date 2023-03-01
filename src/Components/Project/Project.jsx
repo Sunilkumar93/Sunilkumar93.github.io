@@ -17,11 +17,12 @@ const Project = () => {
   return (
     <Container
       id="Project"
-      padding={{ base: "0", md: "2rem" }}
+      padding="2rem"
       textAlign="center"
       mt="4rem"
       position="relative"
       overflow="hidden"
+      pt="5rem"
     >
       <Heading>All my</Heading>
       <Heading variant="h1">Projects</Heading>

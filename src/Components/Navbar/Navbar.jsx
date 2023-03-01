@@ -1,4 +1,12 @@
-import { Container, Heading, Hide, Link, Show, Spacer } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  Heading,
+  Hide,
+  Link,
+  Show,
+  Spacer,
+} from "@chakra-ui/react";
 import {
   FaFileAlt,
   FaGithub,
@@ -17,15 +25,16 @@ import { openInNewTab } from "../../utils/openInNewTab";
 const Navbar = () => {
   return (
     <>
-      <Container
+      <Box
+        w={{ base: "98%", lg: "75%" }}
         background={"rgba(0,0,0,0.7)"}
         padding={{ base: "0.5rem 1rem", lg: "0.5rem 2rem" }}
         display={{ base: "none", md: "flex" }}
         position="fixed"
         transition="translate(-50%)"
-        left={{ md: "7%", lg: "12.5%" }}
+        left={{ md: "1%", lg: "12.5%" }}
         alignItems="center"
-        top="2rem"
+        top="1.5rem"
         borderRadius="3rem"
         gap="2rem"
         zIndex={5}
@@ -136,7 +145,7 @@ const Navbar = () => {
         >
           Resume
         </Link>
-      </Container>
+      </Box>
       <Container
         maxW="max-content"
         background={"rgba(0,0,0,0.7)"}

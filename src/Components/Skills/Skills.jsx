@@ -31,6 +31,7 @@ const Skills = () => {
       textAlign="center"
       mt="4rem"
       position="relative"
+      pt="5rem"
     >
       <Heading>About my</Heading>
       <Heading variant="h1">Skills</Heading>

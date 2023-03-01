@@ -20,6 +20,7 @@ const Education = () => {
       mt="4rem"
       position="relative"
       overflow="hidden"
+      pt="5rem"
     >
       <Heading>About My</Heading>
       <Heading variant="h1">Education</Heading>

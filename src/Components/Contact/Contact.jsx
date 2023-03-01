@@ -5,6 +5,7 @@ import {
   Flex,
   FormControl,
   FormLabel,
+  Heading,
   Input,
   Link,
   Textarea,
@@ -75,8 +76,15 @@ const Contact = () => {
       mt="4rem"
       position="relative"
       overflow="hidden"
+      pt={{base:"5rem",md:"0rem"}}
     >
-      <Flex w="100%" flexDirection={{ base: "column", md: "row" }} rowGap={4}>
+      <Heading variant="h1">Contact Me</Heading>
+      <Flex
+        w="100%"
+        flexDirection={{ base: "column", md: "row" }}
+        rowGap={4}
+        mt="2rem"
+      >
         <Flex
           flexDirection={{ base: "row", md: "column" }}
           w={{ base: "100%", md: "20%" }}
