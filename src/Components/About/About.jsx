@@ -30,7 +30,7 @@ const About = () => {
     <Container
       id="About"
       padding="2rem"
-      height={{ base: "1150px", md: "730px", lg: "700px" }}
+      height={{ base: "1180px", md: "760px", lg: "730px" }}
       textAlign="center"
       mt="4rem"
       position="relative"

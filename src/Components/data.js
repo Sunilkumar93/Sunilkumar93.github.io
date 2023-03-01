@@ -35,4 +35,16 @@ export const allProjects = [
     github: "https://github.com/Sunilkumar93/optimizely.com-clone",
     deployed: "https://funny-kataifi-02e4e4.netlify.app/index.html",
   },
+  {
+    title: "Chargebee (Clone)",
+    image: chargebee,
+    techStack:
+      "React|Redux|Swiperjs|Chakra ui|Axios|JsonServer|Html|Css|Firebase|FireBaseAuth ",
+    about:
+      "Charege bee is subscription managemnt website and we try to clone this website, this collaborative Project",
+    areaofResponsiblity:
+      "Landing page and navbar hover card and responsiveness",
+    github: "https://github.com/Sunilkumar93/fluffy-shelf-1478",
+    deployed: "https://fluffy-shelf-1478.vercel.app/",
+  },
 ];

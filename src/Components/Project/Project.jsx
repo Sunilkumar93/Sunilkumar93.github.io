@@ -2,12 +2,7 @@ import {
   Box,
   Container,
   Heading,
-  Tab,
-  TabList,
-  TabPanel,
-  TabPanels,
-  Tabs,
-} from "@chakra-ui/react";
+ } from "@chakra-ui/react";
 import React from "react";
 import Swiper from "../Swiper/Swiper";
 
@@ -27,18 +22,9 @@ const Project = () => {
       <Heading>All my</Heading>
       <Heading variant="h1">Projects</Heading>
       <Box mt="3rem">
-        <Tabs align="center" variant="enclosed" size="lg">
-          <TabList>
-            <Tab>All</Tab>
-          </TabList>
-          <TabPanels>
-            <TabPanel>
-              <Box w="100%" h={{ base: "500px", md: "600px", lg: "540px" }}>
-                <Swiper data={allProjects} />
-              </Box>
-            </TabPanel>
-          </TabPanels>
-        </Tabs>
+        <Box w="100%" h={{ base: "540px", md: "600px", lg: "600px" }}>
+          <Swiper data={allProjects} />
+        </Box>
       </Box>
     </Container>
   );

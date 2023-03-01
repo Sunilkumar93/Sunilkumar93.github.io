@@ -76,7 +76,7 @@ const Contact = () => {
       mt="4rem"
       position="relative"
       overflow="hidden"
-      pt={{base:"5rem",md:"0rem"}}
+      pt="5rem"
     >
       <Heading variant="h1">Contact Me</Heading>
       <Flex

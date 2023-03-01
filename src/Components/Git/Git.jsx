@@ -39,7 +39,7 @@ const Git = () => {
           textAlign="start"
           borderRadius={15}
         >
-          <GitHubCalendar username="Sunilkumar93" color="#4db5ff"/>
+          <GitHubCalendar username="Sunilkumar93" color="#4db5ff" style={{margin:"auto"}}/>
         </Box>
         <Grid templateColumns={{ base: "1fr", md: "repeat(2,1fr)" }} gap={5}>
           <Box>

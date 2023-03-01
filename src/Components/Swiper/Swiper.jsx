@@ -34,9 +34,9 @@ const SwiperComponent = ({ data = [] }) => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {data.map((item) => {
+        {data.map((item,i) => {
           return (
-            <SwiperSlide key={item.github}>
+            <SwiperSlide key={item.github+i}>
               <VStack
                 alignItems="start"
                 alignSelf="start"
