@@ -8,6 +8,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import {
+  FaDownload,
   FaFileAlt,
   FaGithub,
   FaGraduationCap,
@@ -157,7 +158,7 @@ const Navbar = () => {
         alignItems="center"
         top="2rem"
         borderRadius="3rem"
-        gap="1.5rem"
+        gap="1.2rem"
         zIndex={5}
       >
         <Link
@@ -241,6 +242,19 @@ const Navbar = () => {
           href="#Contact"
         >
           <FaWpforms />
+        </Link>
+        <Link
+          borderRadius="50%"
+          color="colorLight"
+          fontSize="1.1rem"
+          _hover={{
+            color: "white",
+          }}
+          href={Resume}
+          onClick={() => openInNewTab()}
+          download="fw20_0828-Sunil-Kumar-Resume"
+        >
+          <FaDownload />
         </Link>
       </Container>
     </>
